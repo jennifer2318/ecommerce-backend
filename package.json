@@ -1,0 +1,27 @@
+{
+  "name": "ecommerce-backend",
+  "version": "1.0.0",
+  "description": "ecommerce-backend",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jennifer2318/ecommerce-backend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jennifer2318/ecommerce-backend/issues"
+  },
+  "homepage": "https://github.com/jennifer2318/ecommerce-backend#readme",
+  "dependencies": {
+    "apollo-server-hapi": "^2.21.1",
+    "graphql": "^15.5.0",
+    "hapi": "^18.1.0",
+    "hapi-graphql": "^1.0.1",
+    "mongoose": "^5.11.15",
+    "nodemon": "^2.0.7"
+  }
+}
